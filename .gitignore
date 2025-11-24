@@ -1,0 +1,7 @@
+.env
+eth-validators.json
+*.csv
+*.parquet
+.venv
+venv_bt
+*.json
