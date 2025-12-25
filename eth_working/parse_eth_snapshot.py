@@ -9,12 +9,12 @@ from tqdm import tqdm
 # We use the SAME input file you already processed
 INPUT_FILE = Path("eth_rich_snapshot.json")
 # We save to a NEW output file
-OUTPUT_FILE = "eth_entity_history_part2.parquet"
+OUTPUT_FILE = "eth_entity_history_part1.parquet"
 
 # TIMEFRAME 2: Feb 22, 2025 to Aug 24, 2025
 # (I corrected 2024 -> 2025 based on your thesis timeline. Change back if needed!)
-START_DATE = pd.Timestamp("2025-02-22", tz="UTC")
-END_DATE = pd.Timestamp("2025-08-24", tz="UTC")
+START_DATE = pd.Timestamp("2024-08-24", tz="UTC")
+END_DATE = pd.Timestamp("2025-02-22", tz="UTC")
 
 # ETHEREUM CONSTANTS
 GENESIS_TIME = 1606824023
